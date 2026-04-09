@@ -4,7 +4,7 @@ const path = require("path");
 const http = require("http");
 const dotenv = require("dotenv");
 
-dotenv.config({ path: path.resolve(__dirname, "../.env") });
+dotenv.config();
 
 const { connectDB } = require("./config/db");
 const app = require("./app");
