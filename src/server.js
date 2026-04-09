@@ -1,3 +1,5 @@
+console.log('MONGO_URI:', process.env.MONGO_URI);
+
 const path = require("path");
 const http = require("http");
 const dotenv = require("dotenv");
