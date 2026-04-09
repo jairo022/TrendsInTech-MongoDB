@@ -1,5 +1,5 @@
 export const environment = {
-  apiUrl: 'https://tt4-2930-be.onrender.com'
+  production: true,
+  apiUrl: 'https://TrendsInTech-MongoDB-3.onrender.com'  // Your backend URL
 };
-
 // apiUrl: 'http://localhost:5000'
